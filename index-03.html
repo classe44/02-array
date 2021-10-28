@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Recap ciclo for</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript">
+
+    // conta quante volte il numero 2 è presente in un array
+
+    const mieiNumeri = [0, 2, 4, 1, 2, 3, 6, 8, 2];
+
+    let contatore = 0;
+
+    for (let i = 0; i < mieiNumeri.length; i++) {
+
+        const numero = mieiNumeri[i];
+        if (numero === 2) {
+            contatore += 1;
+        }
+
+    }
+    
+    console.log(`Il numero 2 è presente ${contatore} volte`);
+
+    </script>
+
+  </head>
+  <body>
+
+    <div class="menu bg-light p-1 text-left">
+        <h2>Recap ciclo for e array</h2>
+    </div>
+    <div class="container py-2 text-center">
+        <p>Contiamo quante volte il numero 2 è presente in un array</p>
+    </div>
+
+    <div class="logo-recap">
+        <span class="brackets">
+            [
+        </span> 
+        <span class="text">
+            Recap
+        </span>
+        <span class="brackets">
+            ]
+        </span>
+    </div>
+
+  </body>
+</html>

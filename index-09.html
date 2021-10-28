@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Recap ciclo for</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript">
+
+        // ho due array: una lista di elementi
+        const listaIngredienti = ['farina', 'cacao', 'latte', 'uova'];
+        // e le relative quantità
+        const qtaIngredienti = ['200gr', '50gr', '150ml', '2'];
+
+        // gli array hanno la stessa lunghezza
+
+        // posso usare un solo ciclo for per accedere agli elementi di entrambi gli array?
+
+        console.log('Per la nostra ricetta ti serviranno:');
+
+        for (let i = 0; i < listaIngredienti.length; i++) {
+
+
+            // se i = 0, cosa ci sarà dentro ingrediente? e dentro qta?
+            const ingrediente = listaIngredienti[i];
+            const qta = qtaIngredienti[i];
+
+            console.log(`${ingrediente}: ${qta}`);
+            
+        }
+
+    </script>
+
+  </head>
+  <body>
+      
+    <div class="menu bg-light p-1 text-left">
+        <h2>Recap ciclo for e array</h2>
+    </div>
+    <div class="container py-2 text-center">
+        <p>Ciclo for su due array - è possibile?</p>
+    </div>
+
+    <div class="logo-recap">
+        <span class="brackets">
+            [
+        </span> 
+        <span class="text">
+            Recap
+        </span>
+        <span class="brackets">
+            ]
+        </span>
+    </div>
+
+  </body>
+</html>
